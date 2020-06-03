@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "393108391109",
+    "firebase_url": "https://gerente-ea6c6.firebaseio.com",
+    "project_id": "gerente-ea6c6",
+    "storage_bucket": "gerente-ea6c6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393108391109:android:e4e326230b1eaff7de5cac",
+        "android_client_info": {
+          "package_name": "br.com.toigo.gerente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393108391109-equr49v2ts817t70qlq2c4gte24snca9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFZZrrwKO-c-LemCAomtKIn66Fw_k_m08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393108391109-equr49v2ts817t70qlq2c4gte24snca9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
