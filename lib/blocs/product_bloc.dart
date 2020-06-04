@@ -23,7 +23,7 @@ class ProductBloc extends BlocBase {
     if (product != null) {
       unsavedData = Map.of(product.data);
       unsavedData["images"] = List.of(product.data["images"]);
-      unsavedData["sizes"] = List.of(product.data["sizes"]);
+      unsavedData["noitem"] = List.of(product.data["noitem"]);
 
       _createdController.add(true);
     } else {
@@ -32,7 +32,7 @@ class ProductBloc extends BlocBase {
         "description": null,
         "price": null,
         "images": [],
-        "sizes": []
+        "noitem": []
       };
 
       _createdController.add(false);
@@ -58,7 +58,7 @@ class ProductBloc extends BlocBase {
   }
 
   void saveSizes(List sizes) {
-    unsavedData["sizes"] = sizes;
+    unsavedData["noitem"] = sizes;
   }
 
   Future<bool> saveProduct() async {
